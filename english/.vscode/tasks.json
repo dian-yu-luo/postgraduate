@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "新的markdown文件",
+		"command": "touch ${input:fileName}.md ;; code ${input:fileName}.md ",
+		"type": "shell",
+		"problemMatcher": [],
+		"presentation": {
+		  "echo": false,
+		  "reveal": "silent",
+		  "focus": false,
+		  "panel": "shared",
+		  "showReuseMessage": false,
+		  "clear": true
+		},
+		"promptOnClose": false
+	  }
+	],
+  
+	"inputs": [
+	  {
+		"type": "promptString",
+		"id": "fileName",
+		"description": "写入文件名",
+		"default": "new file name"                  // make your default text here
+	  }
+	]
+  }
