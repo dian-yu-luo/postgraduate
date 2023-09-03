@@ -1,0 +1,3 @@
+# constitution
+
+[[放弃]]
