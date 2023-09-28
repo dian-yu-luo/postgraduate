@@ -1,0 +1,6 @@
+{
+    "markdown.copyFiles.destination": {
+        "*": "images/${documentBaseName}.png"
+    },
+    "explorer.sortOrder": "modified",
+}
